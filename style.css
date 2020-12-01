@@ -1,0 +1,47 @@
+body {
+	background: linear-gradient(
+		180deg,
+		rgba(9, 9, 121, 1) 0%,
+		rgba(3, 137, 206, 1) 53%,
+		rgba(0, 212, 255, 1) 100%
+	);
+
+	color: white;
+	min-height: 100vh;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 600px;
+}
+
+.btn {
+	background: #0389ce;
+	color: white;
+	width: 100px;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.btn:focus {
+	outline: none !important;
+}
+
+.username {
+	font-weight: bold;
+}
+
+.time {
+	font-size: 0.7em;
+	color: #999;
+}
+
+.update-mssg {
+	text-align: center;
+	margin: 20px auto;
+	font-size: 0.9em;
+}
+
+.chat-window {
+	color: #666;
+}
